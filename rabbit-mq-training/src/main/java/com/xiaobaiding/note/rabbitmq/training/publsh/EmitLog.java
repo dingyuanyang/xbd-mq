@@ -7,6 +7,9 @@ import com.xiaobaiding.note.rabbitmq.constants.RabbitMQConstants;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
+/**
+ * 广播发布消息
+ */
 public class EmitLog {
 
     public static void main(String[] args) throws IOException, TimeoutException {
